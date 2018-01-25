@@ -1,29 +1,26 @@
-function onClick() {
-	createCanvas(250, 400);
-	strokeWeight(15); 
+function setup() {
+	createCanvas(100, 100);
+	background(300);
+	strokeWeight(4); 
 	fill(0);
 	
 	// Draws head
-	ellipse(150, 100, 50, 50);
+	ellipse(50, 0, 20, 20);
 
 	// Draws body
-	fill(0, 255, 0, 197);
-	rect(150, 100, 15, 90); 
+	line(50, 20, 50, 50); 
 
 	// Draws right arm 
-	line(255, 170, 10, 60); 
+	line(50, 35, 90, 40); 
 
 	// Draws left arm 
-	fill(0, 255, 0, 197);
-	line(225, 170, 10, 60); 
+	line(50, 35, 10, 40); 
 
 	//Draws right leg
-	fill(0, 255, 0, 197);
-	line(110, 240, 10, 75); 
+	line(50, 70, 65, 100); 
 
 	//Draws left leg
-	fill(0, 255, 0, 197);
-	line(90, 240, 10, 75); 
+	line(50, 70, 65, 100); 
 
 
 }
