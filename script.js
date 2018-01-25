@@ -1,5 +1,7 @@
-function setup() {
+function onClick() {
 	createCanvas(250, 400);
+	strokeWeight(15); 
+	fill(0);
 	
 	// Draws head
 	ellipse(150, 100, 50, 50);
