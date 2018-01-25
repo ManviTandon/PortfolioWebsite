@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(250, 450);
+	createCanvas(250, 400);
 	
 	// Draws head
 	ellipse(150, 100, 50, 50);
