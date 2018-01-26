@@ -1,6 +1,7 @@
 function setup() {
-	createCanvas(100, 100);
-	background(300);
+	var myCanvas = createCanvas(100, 100);
+	myCanvas.parent('sketch-holder');
+	background(255);
 	strokeWeight(4); 
 	fill(0);
 	
