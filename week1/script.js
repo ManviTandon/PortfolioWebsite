@@ -1,6 +1,8 @@
 function setup() {
+	var mydiv = document.getElementById("sketch-holder");
 	var myCanvas = createCanvas(100, 100);
-	myCanvas.parent('sketch-holder');
+	mydiv.addChild(myCanvas);
+	//myCanvas.parent('sketch-holder');
 	background(255);
 	strokeWeight(4); 
 	fill(0);
