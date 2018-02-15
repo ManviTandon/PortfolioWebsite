@@ -1,19 +1,9 @@
-function onClick() {
-	createCanvas(250, 400);
-	strokeWeight(15); 
-	fill(0);
-	
-	// Draws landscape
-	fill(0, 0, 255);
-	rect(100, 100, 100, 90);
-
-	// Draws foreground
-	fill(0, 255, 0, 197);
-	rect(100, 150, 50, 90);  
-
-	//Draws sun
-	fill(255, 0, 0);
-	ellipse(150, 100, 50, 50);
-
-
+function setup() {
+	createCanvas(200, 200);
+	for (var y = 0; y < 200; y += 5){
+		for (var x = 0; x < 200; x += 5){
+			fill((x+y) * 2);
+			rect(x, y, 10, 10);
+		}
+	}
 }

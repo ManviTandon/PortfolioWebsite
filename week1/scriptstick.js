@@ -1,5 +1,5 @@
 function setup() {
-	var myCanvas = createCanvas(100, 100);
+	var myCanvas = createCanvas(500, 500);
 	myCanvas.parent('sketch-holder');
 	background(255);
 	strokeWeight(4); 
@@ -24,20 +24,19 @@ function setup() {
 	line(50, 70, 35, 100); 
 
 
-	createCanvas(250, 400);
-	strokeWeight(15); 
+	strokeWeight(0); 
 	fill(0);
 	
 	// Draws landscape
 	fill(0, 0, 255);
-	rect(100, 100, 100, 90);
+	rect(150, 100, 200, 200);
 
 	// Draws foreground
 	fill(0, 255, 0, 197);
-	rect(100, 150, 50, 90);  
+	rect(150, 300, 200, 30);  
 
 	//Draws sun
 	fill(255, 0, 0);
-	ellipse(150, 100, 50, 50);
+	ellipse(200, 160, 50, 50);
 
 }

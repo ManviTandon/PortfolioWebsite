@@ -8,7 +8,7 @@ var drawRect = true;
 var penColor;  
 
 function setup() {
-	createCanvas(200, 200);
+	createCanvas(400, 400);
 	noFill ();
     rect(0, 0 ,width, height);
 	penColor = color(0); // assign the color black to penColor
