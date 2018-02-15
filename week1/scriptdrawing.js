@@ -12,6 +12,7 @@ function setup() {
 	noFill ();
     rect(0, 0 ,width, height);
 	penColor = color(0); // assign the color black to penColor
+
 }
 
 function draw(){
@@ -65,13 +66,7 @@ function keyPressed() {
     }
 }
 
-var img;
-function preload() {
-  img = loadImage('img/me.png');
-}
-function setup() {
-  background(0);
-  // Top-left corner of the img is at (10, 10)
-  // Width and height are 50 x 50
-  image(img, 10, 10, 50, 50);
-}
+//var img;
+//function preload() {
+//img = loadImage('img/me.png');
+//}
