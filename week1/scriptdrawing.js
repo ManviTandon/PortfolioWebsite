@@ -2,7 +2,17 @@ var weight = 1;
 var buttonWidth = 30; 
 var buttonHeight = 10;
 var drawRect = true; 
+var img;
+function preload() {
+  img = loadImage('img/me.png');
+}
 
+function setup() {
+  background(0);
+  // Top-left corner of the img is at (10, 10)
+  // Width and height are 50 x 50
+  image(img, 500, 10, 50, 50);
+}
 
 // Declare a new global variable to store the color
 var penColor;  
