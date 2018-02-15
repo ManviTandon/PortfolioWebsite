@@ -11,7 +11,7 @@ function setup() {
 	var myCanvas = createCanvas(400, 400);
 	myCanvas.parent('drawingPad');
 	noFill ();
-    rect(0, 0 ,width, height);
+  rect(0, 0 ,width, height);
 	penColor = color(0); // assign the color black to penColor
 
 }
