@@ -29,7 +29,7 @@ function draw(){
   	if (mouseIsPressed == true) {
 	    stroke(penColor);
     	if (drawRect == true){
-      		ctx.clearRect(0,0,400,400);
+      		rect(mouseX, mouseY, weight, weight); 
     	} else {
       		strokeWeight(weight);
       		line(mouseX, mouseY, pmouseX, pmouseY);
@@ -72,6 +72,8 @@ function keyPressed() {
     } else if (keyCode == LEFT_ARROW){
       weight/=2;
       strokeWeight(weight);
-    }
+    } else if (key == 'p' || key == 'P'){
+	  ctx.clearRect(0,0,400,400);
+	} 
 }
 
