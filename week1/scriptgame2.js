@@ -10,10 +10,10 @@ function setup() {
 	var myCanvas = createCanvas(400, 400);
 	myCanvas.parent('drawingPad');
 	noFill ();
-	rect(200, 200, 100, 100);
+	ellipse(300, 200, 50, 50);
   rect(0, 0 ,width, height);
 	penColor = color(0); // assign the color black to penColor
-	alert("complete the house");
+	alert("complete the snowman");
 
 }
 
