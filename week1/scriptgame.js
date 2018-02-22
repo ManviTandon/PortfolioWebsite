@@ -2,14 +2,24 @@ var weight = 1;
 var buttonWidth = 30; 
 var buttonHeight = 10;
 var drawRect = true; 
-var penColor;  
+var penColor;
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+
+document.getElementById('clear').addEventListener('click'),
+function() {
+	context.clearRect(0, 0, 400, 400); }, false;
+}
+
 
 function setup() {
 	var myCanvas = createCanvas(400, 400);
 	myCanvas.parent('drawingPad');
 	noFill ();
+	rect(200, 200, 100, 100);
   rect(0, 0 ,width, height);
 	penColor = color(0); // assign the color black to penColor
+	alert("complete the house");
 
 }
 
@@ -41,6 +51,8 @@ function mouseReleased() {
       }
     }
 }
+
+
 
 function keyPressed() {
 	// now in this function, instead of directly setting the stroke() color
