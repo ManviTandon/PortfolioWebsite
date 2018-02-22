@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Game</title>
+    <style>
+    	* { padding: 0; margin: 1; }
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="500" height="300"></canvas>
+
+<script>
+var xPos, yPos, xSpeed, ySpeed, circle;                                  
+var circleWidth = 40;           
+var circleHeight = 30;  
+
+circle = ellipse(xPos, yPos, 50, 50);
+
+function setup() {
+  createCanvas(300,300);
+  xPos = random(0, 500);                
+  yPos = random(0, 300);              
+  xSpeed = random(1,10);       
+  ySpeed = random(1,10);        
+}
+</script>
+
+</body>
+</html>
+
