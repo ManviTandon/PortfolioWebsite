@@ -29,14 +29,14 @@ function setup() {
 	
 	// Draws landscape
 	fill(0, 0, 255);
-	rect(150, 100, 200, 200);
+	rect(150, 100, 300, 300);
 
 	// Draws foreground
 	fill(0, 255, 0, 197);
-	rect(150, 300, 200, 30);  
+	rect(150, 250, 300, 150);  
 
 	//Draws sun
 	fill(255, 0, 0);
-	ellipse(200, 160, 50, 50);
+	ellipse(300, 160, 50, 50);
 
 }
