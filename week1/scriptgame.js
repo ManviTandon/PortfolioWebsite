@@ -3,13 +3,7 @@ var buttonWidth = 30;
 var buttonHeight = 10;
 var drawRect = true; 
 var penColor;
-var canvas = document.getElementById('myCanvas');
-var context = canvas.getContext('2d');
 
-document.getElementById('clear').addEventListener('click'),
-function() {
-	context.clearRect(0, 0, 400, 400); }, false;
-}
 
 
 function setup() {
