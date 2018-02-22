@@ -3,8 +3,6 @@ var buttonWidth = 30;
 var buttonHeight = 10;
 var drawRect = true; 
 var penColor;
-var canvas = document.getElementById('my-canvas');
-var context = canvas.getContext('2d');
 
 
 
@@ -36,12 +34,6 @@ function draw(){
     }	
 }
 
-function clearCanvas(context, canvas) {
-  context.clearRect(0, 0, canvas.width, canvas.height);
-  var w = canvas.width;
-  canvas.width = 1;
-  canvas.width = w;
-}
 
 function mouseReleased() {
     if ((mouseX > 10) && (mouseX < buttonWidth+10) && (mouseY > 10) && (mouseY < buttonHeight+10)){
@@ -77,6 +69,8 @@ function keyPressed() {
     } else if (keyCode == LEFT_ARROW){
       weight/=2;
       strokeWeight(weight);
-    } 
+    } else if (key == 'p' || key == 'P'){
+	  context.clearRect(0, 0, canvas.width, canvas.height);
+	} 
 }
 
