@@ -4,6 +4,9 @@ var buttonHeight = 10;
 var drawRect = true; 
 var penColor;
 
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+
 
 
 function setup() {
@@ -26,7 +29,7 @@ function draw(){
   	if (mouseIsPressed == true) {
 	    stroke(penColor);
     	if (drawRect == true){
-      		rect(mouseX, mouseY, weight, weight); 
+      		ctx.clearRect(0,0,400,400);
     	} else {
       		strokeWeight(weight);
       		line(mouseX, mouseY, pmouseX, pmouseY);
