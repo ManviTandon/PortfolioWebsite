@@ -22,6 +22,7 @@ function clearCanvas(){
  var ctx = canvas.getContext('2d');
  ctx.clearRect(0, 0, 1000, 1000);
 }
+
 function draw(){
   	noStroke(); 
   	fill (0,0,255);
