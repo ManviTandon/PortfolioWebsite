@@ -9,7 +9,7 @@ function preload() {
 
 
 function setup() {
- createCanvas(windowWidth, windowHeight);
+ //createCanvas(windowWidth, windowHeight);
   //noStroke();
   //noLoop()
    var map = new google.maps.Map(document.getElementById('map'), {
