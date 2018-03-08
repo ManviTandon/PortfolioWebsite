@@ -4,7 +4,7 @@ function preload() {
   // Get all Bike Spots data
   let url =
   'http://api.citybik.es/v2/networks';
-  networksData = loadJSON(assets/bikes.json);
+  networksData = loadJSON("assets/bikes.json");
 }
 
 
