@@ -3,8 +3,29 @@ body
 {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 200vh;
 
+}
+h1 {
+    color: white;
+    font-family: verdana;
+    font-size: 180%;
+}
+
+h2 {
+    color: grey;
+    font-family: courier;
+    font-size: 150%;
+}
+h3 {
+    color: purple;
+    font-family: courier;
+    font-size: 130%;
+}
+h4 {
+    color: purple;
+    font-family: verdana;
+    font-size: 120%;
 }
 
 #container
@@ -23,7 +44,6 @@ body
   height: 100%;
   background: black;
 }
-
 
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
@@ -58,7 +78,7 @@ html,body{
 }
 
 html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(10, 0, 0, 0);
 }
 
 body{

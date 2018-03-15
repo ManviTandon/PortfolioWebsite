@@ -1,9 +1,13 @@
-body {
-    background-color: lightpink;
-}
 
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+
+}
 h1 {
-    color: black;
+    color: white;
     font-family: verdana;
     font-size: 180%;
 }
@@ -19,23 +23,24 @@ h3 {
     font-size: 130%;
 }
 h4 {
-    color: black;
+    color: purple;
     font-family: verdana;
     font-size: 120%;
 }
 
-p  {
-    color: lightseagreen;
-    font-family: courier;
-    font-size: 120%;
-    /*The CSS border property defines a border 
-    around an HTML element:*/
-    border: 1px solid grey;
-    /*The CSS padding property defines a padding 
-    (space) between the text and the border:*/
-    padding: 20px;
-    /*The CSS margin property defines a margin 
-    (space) outside the border:*/
-    margin: 50px;
+#container
+{
+
+    color: white;
+    font-family: verdana;
+    font-size: 180%;
+
 }
 
+}
+
+#particles-js
+{
+  height: 100%;
+  background: black;
+}
