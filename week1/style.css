@@ -7,46 +7,21 @@ body
 
 }
 
-h1 {
-    color: black;
+#container
+{
+
+    color: white;
     font-family: verdana;
     font-size: 180%;
+
 }
 
-h2 {
-    color: grey;
-    font-family: courier;
-    font-size: 150%;
-}
-h3 {
-    color: purple;
-    font-family: courier;
-    font-size: 130%;
-}
-h4 {
-    color: black;
-    font-family: verdana;
-    font-size: 120%;
 }
 
-p  {
-    color: lightseagreen;
-    font-family: courier;
-    font-size: 120%;
-    /*The CSS border property defines a border 
-    around an HTML element:*/
-    border: 1px solid grey;
-    /*The CSS padding property defines a padding 
-    (space) between the text and the border:*/
-    padding: 20px;
-    /*The CSS margin property defines a margin 
-    (space) outside the border:*/
-    margin: 50px;
-}
 #particles-js
 {
   height: 100%;
-  background: #f00;
+  background: black;
 }
 
 
@@ -61,7 +36,7 @@ nav ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+mark{background-color:white;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
