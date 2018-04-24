@@ -2,11 +2,36 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+
 }
+h1 {
+    color: white;
+    font-family: verdana;
+    font-size: 180%;
+}
+
+h2 {
+    color: grey;
+    font-family: courier;
+    font-size: 150%;
+}
+h3 {
+    color: purple;
+    font-family: courier;
+    font-size: 130%;
+}
+h4 {
+    color: purple;
+    font-family: verdana;
+    font-size: 120%;
+}
+
+
 
 /* Center website */
 .main {
