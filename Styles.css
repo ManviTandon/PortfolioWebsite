@@ -7,8 +7,11 @@ body
   margin: 0;
   padding: 0;
   height: 200vh;
+  background-color: #EAEEF9;
+  background-blend-mode: lighten;
 
 }
+
 h1 {
     color: white;
     font-family: verdana;
@@ -21,7 +24,7 @@ h2 {
     font-size: 150%;
 }
 h3 {
-    color: purple;
+    color: #284891;
     font-family: courier;
     font-size: 130%;
 }
