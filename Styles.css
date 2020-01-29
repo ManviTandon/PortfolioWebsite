@@ -7,7 +7,7 @@ body
   margin: 0;
   padding: 0;
   height: 200vh;
-  background-color: #EAEEF9;
+  background-color: #ffddcc;
   background-blend-mode: lighten;
 
 }
@@ -20,12 +20,12 @@ h1 {
 
 h2 {
     color: grey;
-    font-family: courier;
+    font-family: verdana;
     font-size: 150%;
 }
 h3 {
     color: #284891;
-    font-family: courier;
+    font-family: verdana;
     font-size: 130%;
 }
 h4 {
