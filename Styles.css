@@ -7,7 +7,7 @@ body
   margin: 0;
   padding: 0;
   height: 200vh;
-  background-color: #ffddcc;
+  background-color: #AF90A9;
   background-blend-mode: lighten;
 
 }
@@ -19,17 +19,17 @@ h1 {
 }
 
 h2 {
-    color: #bb99ff;
+    color: #944654;
     font-family: verdana;
     font-size: 150%;
 }
 h3 {
-    color: #bb99ff;
+    color: #944654;
     font-family: verdana;
     font-size: 130%;
 }
 h4 {
-    color: #bb99ff;
+    color: #944654;
     font-family: verdana;
     font-size: 120%;
 }
