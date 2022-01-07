@@ -7,29 +7,29 @@ body
   margin: 0;
   padding: 0;
   height: 200vh;
-  background-color: #AF90A9;
+  background-color: white;
   background-blend-mode: lighten;
 
 }
 
 h1 {
-    color: white;
+    color: black;
     font-family: verdana;
     font-size: 180%;
 }
 
 h2 {
-    color: #944654;
+    color: black;
     font-family: verdana;
     font-size: 150%;
 }
 h3 {
-    color: #944654;
+    color: black;
     font-family: verdana;
     font-size: 130%;
 }
 h4 {
-    color: #944654;
+    color: black;
     font-family: verdana;
     font-size: 120%;
 }
@@ -87,7 +87,7 @@ h1 {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: paleturquoise;
   cursor: pointer;
 }
 
@@ -96,11 +96,7 @@ h1 {
   background-color: #ddd;
 }
 
-/* Add a dark background color to the active button */
-.btn.active {
-  background-color: #666;
-   color: white;
-}
+
 
 .rotate90 {
     -webkit-transform: rotate(90deg);
