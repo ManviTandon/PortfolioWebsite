@@ -74,8 +74,7 @@ h1 {
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
-    padding-top: 20px;
+    padding: 30px;
 }
 
 /* The "show" class is added to the filtered elements */
